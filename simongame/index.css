@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    margin-top:100px ;
+}
+.parent{
+    background-color: rgb(197, 93, 195);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:350px;
+    width: 350px;
+    margin: auto;
+    
+    border-radius: 20%;
+
+}
+.child1{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+
+    border-radius: 20%;
+    margin: 1rem;
+}
+.child2{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+   
+    border-radius: 20%;
+    margin: 1rem;
+}.child3{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+    margin: 1rem;
+}.child4{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+    margin: 1rem;
+}
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color: green;
+}
