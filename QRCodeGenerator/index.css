@@ -1,0 +1,61 @@
+div{
+    background-color: burlywood;
+  
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 7%;
+    box-sizing: border-box ;
+}
+h3{
+    margin-top: 70px;
+   margin-left: 5px;
+}
+input{
+    border: none;
+    padding: 15px 10px;
+    margin-left: 10px;
+    width: 400px;
+    border-radius: 10px;
+}
+button{
+    width: 407px;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding: 15px;
+    margin-left: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#imgBox {
+    margin-top: 0px; 
+    text-align: center;
+    margin-bottom:20px; 
+}
+.error{
+    animation: shake 0.1s linear 10;
+}
+@keyframes shake {
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-2px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    75%{
+        transform: translateX(2px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+
+}
